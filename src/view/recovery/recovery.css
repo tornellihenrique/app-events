@@ -1,0 +1,14 @@
+.recovery-content {
+    height: calc(100vh - 56px);
+    background-color: #614EA6;
+}
+
+.btn-recovery {
+    background-color: #FFF;
+    color: #614EA6;
+}
+
+.btn-recovery:hover {
+    background-color: #F21667;
+    color: #FFF;
+}

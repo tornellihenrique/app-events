@@ -5,7 +5,6 @@ import { useSelector, useDispatch } from 'react-redux';
 import firebase from '../../config/firebase';
 import 'firebase/auth';
 import './login.css';
-import Navbar from '../../components/navbar';
 
 function Login() {
 

@@ -10,6 +10,7 @@ import Login from './view/login';
 import Signin from './view/signin';
 import Recovery from './view/recovery';
 import Home from './view/home';
+import CadEvent from './view/cad-event';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
+          <Route exact path='/cad-event' component={CadEvent} />
           <Route exact path='/login' component={Login} />
           <Route exact path='/signin' component={Signin} />
           <Route exact path='/recovery' component={Recovery} />

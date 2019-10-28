@@ -35,7 +35,7 @@ function Navbar() {
                             :
                             <>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="">Publicar eventos</Link>
+                                    <Link className="nav-link" to="cad-event">Publicar eventos</Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link" to="">Meus eventos</Link>
